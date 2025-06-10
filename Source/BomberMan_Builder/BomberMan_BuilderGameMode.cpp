@@ -23,7 +23,7 @@ void ABomberMan_BuilderGameMode::BeginPlay()
 
 	if (Director && Builder)
 	{
-		Builder->Reset();
+		Builder->Reset(); 
 		Director->SeleccionarLaberinto(Builder);
 		Director->ConstruirLaberinto();
 		Laberinto_1 = Director->ObtenerLaberinto();
